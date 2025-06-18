@@ -16,27 +16,27 @@ This is a simple RESTful API built with **Java Spring Boot**, designed to manage
 Make sure you have Docker installed.
 
 1. Clone the repository:
-git clone https://github.com/EnzoToso01/Api-rest.git
+- git clone https://github.com/EnzoToso01/Api-rest.git
    
 3. Start the containers:
-docker-compose up --build
+- docker-compose up --build
 
 4. The API will be available at:
-http://localhost:8080
+- http://localhost:8080
 
 Sample Endpoints
-GET /products → Get all products
-POST /products → Create a new product
-GET /products/{id} → Get a product by ID
-PUT /products/{id} → Update a product
-DELETE /products/{id} → Delete a product
+- GET /products → Get all products
+- POST /products → Create a new product
+- GET /products/{id} → Get a product by ID
+- PUT /products/{id} → Update a product
+- DELETE /products/{id} → Delete a product
 
 🧪 How to Test
-You can use tools like Postman, Insomnia, or curl to test the endpoints.
+- You can use tools like Postman, Insomnia, or curl to test the endpoints.
 
 📁 Environment Variables
-If needed, you can define custom variables in a .env file
+- If needed, you can define custom variables in a .env file
 (you can base it on the provided .env.example).
 
 💡 Why this project?
-This project demonstrates how to create a clean, dockerized, database-connected REST API using Java and Spring Boot. It's great for learning purposes, technical interviews, or as a base for bigger applications.
+- This project demonstrates how to create a clean, dockerized, database-connected REST API using Java and Spring Boot. It's great for learning purposes, technical interviews, or as a base for bigger applications.
