@@ -11,31 +11,17 @@ This is a simple RESTful API built with **Java Spring Boot**, designed to manage
 - MySQL
 - Docker & Docker Compose
 
-## 📦 Project Structure
+🐳 How to Run with Docker
 
-src/
-├── main/
-│   ├── java/com/enzotoso/api/
-│   │   ├── controller/
-│   │   ├── model/
-│   │   ├── repository/
-│   │   └── service/
-│   └── resources/
-│       ├── application.properties
-│       └── ...
-
-## 🐳 How to Run with Docker
-
-Make sure you have Docker and Docker Compose installed.
+Make sure you have Docker installed.
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/EnzoToso01/Api-rest.git
-   cd Api-rest
-2. Start the containers:
+git clone https://github.com/EnzoToso01/Api-rest.git
+   
+3. Start the containers:
 docker-compose up --build
 
-3. The API will be available at:
+4. The API will be available at:
 http://localhost:8080
 
 Sample Endpoints
